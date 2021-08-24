@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5933457983549335182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5933457983549335180}
+  - component: {fileID: 5933457983549335183}
+  - component: {fileID: 8828914948369758298}
+  m_Layer: 0
+  m_Name: BattleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5933457983549335180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5933457983549335182}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 203.75278, y: 264.6444, z: -10.011111}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5933457983549335183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5933457983549335182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a1b9a198253f414188169a00c7eb4b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleState: 0
+  AlliesInput: 0
+  PerformList: []
+  AlliesInBattle: []
+  AxisInBattle: []
+  AlliesToManage: []
+  AlliesChoice:
+    Attacker: 
+    Type: 
+    AttackersGameObject: {fileID: 0}
+    AttackersTarget: {fileID: 0}
+    chosenAction: {fileID: 0}
+  enemyButton: {fileID: 8817657203898390457, guid: 6ef78834dc77b38408d872928359d570,
+    type: 3}
+  EnemySpacer: {fileID: 0}
+  EnemySelectPanel: {fileID: 0}
+  ActionPanel: {fileID: 0}
+  actionButton: {fileID: 4107678271384207610, guid: 15f4a18e87ed3fd4d96ad3d80af03230,
+    type: 3}
+  actionSpacer: {fileID: 0}
+  InformationScreen: {fileID: 0}
+  MaskActive: 0
+  countdown: 0
+  MaskChoiceTaken: 0
+  BattleMusic: {fileID: 0}
+  BattleMusicSource: {fileID: 0}
+  ChoiceMade: {fileID: 0}
+  ChoiceMadeSource: {fileID: 0}
+  BuildUp: {fileID: 0}
+  BuildUpSource: {fileID: 0}
+  AlliedUnits: 0
+  RandomBattle: 0
+--- !u!114 &8828914948369758298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5933457983549335182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a057a3b9492a4a8438bc5281c3c4bda8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PauseMenuUI: {fileID: 0}

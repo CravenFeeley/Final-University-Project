@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Menus/MainMenu.unity
+    guid: 64e3cd3cd177d7c409e5e4f677794884
+  - enabled: 1
+    path: Assets/Scenes/Levels/BeachLanding.unity
+    guid: e0a97d2aaed27e74c9480ebc1b7f4ab3
+  - enabled: 1
+    path: Assets/Scenes/Menus/LevelComplete.unity
+    guid: ad9db8eaa023b984eb117121e5002ac8
+  - enabled: 1
+    path: Assets/Scenes/Menus/RetryLevel.unity
+    guid: 2efb4b38e1faecd47aa9fc45313fb504
+  - enabled: 1
+    path: Assets/Scenes/Levels/FightThroughGrassland.unity
+    guid: ce3428f1446e1a4479e24c351207a363
+  - enabled: 1
+    path: Assets/Scenes/Menus/LevelComplete 1.unity
+    guid: c419c8271853efb47b795b135b849a6b
+  - enabled: 1
+    path: Assets/Scenes/Menus/RetryLevel 1.unity
+    guid: fbd022ae1ff273545822276f8ed1c743
+  - enabled: 1
+    path: Assets/Scenes/Levels/TakeTheCity.unity
+    guid: af7459c4d568e6e43b52834f9d98e5d6
+  - enabled: 1
+    path: Assets/Scenes/Menus/LevelComplete 2.unity
+    guid: 603a9a167157dd840a1b0d39b9bed551
+  - enabled: 1
+    path: Assets/Scenes/Menus/RetryLevel 2.unity
+    guid: 0a4887f235500c34a852d45f6d3f8b96
+  - enabled: 1
+    path: Assets/Scenes/Menus/GameComplete.unity
+    guid: c26e8326c67945544a4af070388c757b
+  - enabled: 1
+    path: Assets/Scenes/RandomBattle/1v1RandomBattle.unity
+    guid: b718385fbd43ebb4da48a9776ca39816
+  - enabled: 1
+    path: Assets/Scenes/RandomBattle/2v2RandomBattle.unity
+    guid: 7464b5e5f94a57949844c1cd2a68ea98
+  - enabled: 1
+    path: Assets/Scenes/RandomBattle/3v3RandomBattle.unity
+    guid: bb1728889b05e0a408a0c1c9a718fd4f
+  - enabled: 1
+    path: Assets/Scenes/Menus/RandomBattleWin.unity
+    guid: 6e9ab297c328a5949bf81d35377eee11
+  - enabled: 1
+    path: Assets/Scenes/Menus/RandomBattleLose.unity
+    guid: 49d508580b851ff4a9520394d731e847
+  m_configObjects: {}
